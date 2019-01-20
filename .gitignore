@@ -1,0 +1,15 @@
+## Editor backup and swap files
+*~
+.\#*
+\#**\#
+.*.sw[op]
+.sw[op]
+*.bak
+
+
+# Dependency files
+*.d
+
+# Compile output
+*.out
+
