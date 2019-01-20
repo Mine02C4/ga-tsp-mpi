@@ -332,7 +332,7 @@ int main(int argc,char *argv[]) {
 
 
     gaSolve();
-    MPI_Init(NULL,NULL);
+    MPI_Init(&argc, &argv);
 
     int i, numtasks, rank, dest, source;
     long inmsg, outmsg;
